@@ -1,0 +1,37 @@
+usage
+    booker [file1 file2 ...] [-o [file] -f [format] -d [dec1 dec2 ...]]
+options
+    -f [format]
+        format of the output, possible options:
+            * plain - for plain text
+            * pdf   - for pdf
+            * dvi   - for dvi
+            * mkd   - for markdown
+            * tex   - for TEX
+            * odt   - for open document
+            * doc   - for word doc(x)
+        default is plain
+    -o [file]
+        output file
+        if -f is not specified, the file extension will be used to guess the format
+        if the file extension does not match a format, exit with error
+        if -f flag is specified, that format will be used and the output file will still have the mismatched extension
+        default output file name is guessed from the format/default format and the first input filename
+    -d [dec1 dec2]
+        add decorations to the output (mainly used for plain text)
+        possible options:
+            * none
+            * all
+            * page-borders
+            * header
+            * footer
+        default is all
+
+
+
+// flags
+// file options
+// booker file.bok file.cov -o filename.txt -f plain -d none
+// ^prog   ||           ||  |  |            ^format^ ^decorations^
+//         ^^input files^^  |  ^output file
+//                          ^output flag
