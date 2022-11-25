@@ -26,12 +26,3 @@ options
             * header
             * footer
         default is all
-
-
-
-// flags
-// file options
-// booker file.bok file.cov -o filename.txt -f plain -d none
-// ^prog   ||           ||  |  |            ^format^ ^decorations^
-//         ^^input files^^  |  ^output file
-//                          ^output flag
