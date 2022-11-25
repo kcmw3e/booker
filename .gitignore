@@ -6,3 +6,5 @@ sandbox
 build
 
 booker
+
+include/docs/*
