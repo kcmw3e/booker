@@ -1,3 +1,4 @@
+#include "booker.h"
 #include "booker_flags.h"
 #include "booker_messages.h"
 
