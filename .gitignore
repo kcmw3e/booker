@@ -8,3 +8,7 @@ build
 booker
 
 include/docs/*
+
+makefile
+Makefile
+MAKEFILE
